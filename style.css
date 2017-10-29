@@ -212,11 +212,8 @@ body{ height: 100%; overflow: hidden; }
 }
 
 @media screen and (min-width: 420px) {
-    #page1 > .p1_lantern{  position: absolute;  top: -2.5%;  right: 0;  left: 0;  margin: auto;  background: url("images/p1_lantern.png") no-repeat center bottom;  background-size: 80%;  width: 45vw;  height: 71.2vh;  font-size: 3.506rem;  padding-top: 31vh;  text-align: center;color: aliceblue;font-family: serif;  }
-
-#page1 > .p1_lantern:before{  position: absolute; top: -10%; right: 0; bottom: 0; left: 0; margin: auto; z-index: -1;  content: "";  width: 20vw;  height: 20vw;  background: #d60b3b;  opacity: 0.5;  border-radius: 50%;
-    }
-
+#page1 > .p1_lantern{  position: absolute;  top: -2.5%;  right: 0;  left: 0;  margin: auto;  background: url("images/p1_lantern.png") no-repeat center bottom;  background-size: 80%;  width: 45vw;  height: 71.2vh;  font-size: 3.506rem;  padding-top: 31vh;  text-align: center;color: aliceblue;font-family: serif;  }
+#page1 > .p1_lantern:before{  position: absolute; top: -10%; right: 0; bottom: 0; left: 0; margin: auto; z-index: -1;  content: "";  width: 20vw;  height: 20vw;  background: #d60b3b;  opacity: 0.5;  border-radius: 50%; }
 }
 
 

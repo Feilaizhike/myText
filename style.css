@@ -40,7 +40,7 @@ body{ height: 100%; overflow: hidden; }
 /* page1 */
 #page1{  display: block;  }
 #page1 > .bg{  background: url(images/p1_bg.jpg) no-repeat center ;  background-size: 100%;  }
-#page1 > .p1_lantern{  position: absolute;  top: -2.5%;  right: 0;  left: 0;  margin: auto;  background: url("images/p1_lantern.png") no-repeat center top;  background-size: 100%;  width: 45vw;  height: 71.2vh;  font-size: 3.506rem;  padding-top: 31vh;  text-align: center;color: aliceblue;font-family: serif;
+#page1 > .p1_lantern{  position: absolute;  top: -2.5%;  right: 0;  left: 0;  margin: auto;  background: url("images/p1_lantern.png") no-repeat center bottom;  background-size: 100%;  width: 45vw;  height: 71.2vh;  font-size: 3.506rem;  padding-top: 31vh;  text-align: center;color: aliceblue;font-family: serif;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
         -ms-box-sizing: border-box;
@@ -208,6 +208,14 @@ body{ height: 100%; overflow: hidden; }
 #page3 > .p3_second{  width: 24.8125vw;  height: 41.652vh;  position: absolute;  top: 30.48vh;  left: 3.75vw;  background: url("images/p3_couplet_second.png") no-repeat center center;  background-size: 100%;  }
 #page3 > .p3_first{  width: 24.8125vw;  height: 41.652vh;  position: absolute;  top: 30.48vh;  right: 3.75vw;  background: url("images/p3_couplet_first.png") no-repeat center center;  background-size: 100%;  }
 #page3 > .p3_blessing{  width: 70vw;  height: 15vh;  position: absolute;  bottom: 2vh;  right: 0;  left: 0;  margin: auto;  background: url("images/p3_logo.png") no-repeat center center;  background-size: 100%;
+
+}
+
+@media screen and (min-width: 420px) {
+    #page1 > .p1_lantern{  position: absolute;  top: -2.5%;  right: 0;  left: 0;  margin: auto;  background: url("images/p1_lantern.png") no-repeat center bottom;  background-size: 80%;  width: 45vw;  height: 71.2vh;  font-size: 3.506rem;  padding-top: 31vh;  text-align: center;color: aliceblue;font-family: serif;  }
+
+#page1 > .p1_lantern:before{  position: absolute; top: -10%; right: 0; bottom: 0; left: 0; margin: auto; z-index: -1;  content: "";  width: 20vw;  height: 20vw;  background: #d60b3b;  opacity: 0.5;  border-radius: 50%;
+    }
 
 }
 

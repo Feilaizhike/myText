@@ -40,7 +40,7 @@ body{ height: 100%; overflow: hidden; }
 /* page1 */
 #page1{  display: block;  }
 #page1 > .bg{  background: url(images/p1_bg.jpg) no-repeat center ;  background-size: 100%;  }
-#page1 > .p1_lantern{  position: absolute;  top: -2.5%;  right: 0;  left: 0;  margin: auto;  background: url("images/p1_lantern.png") no-repeat center bottom;  background-size: 100%;  width: 45vw;  height: 71.2vh;  font-size: 3.506rem;  padding-top: 31vh;  text-align: center;color: aliceblue;font-family: serif;
+#page1 > .p1_lantern{  position: absolute;  top: -2.5%;  right: 0;  left: 0;  margin: auto;  background: url("images/p1_lantern.png") no-repeat center top;  background-size: 100%;  width: 45vw;  height: 71.2vh;  font-size: 3.506rem;  padding-top: 31vh;  text-align: center;color: aliceblue;font-family: serif;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
         -ms-box-sizing: border-box;
